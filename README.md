@@ -18,7 +18,6 @@ Features of this login system :
 - contact us form(working)
 - 5 colors to choose from
 - modern design
-- made by a teen
 
 For more info or your own costom colors contact me at momueller@me.com or check me out on twitter @seven11nash
 
