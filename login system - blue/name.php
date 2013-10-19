@@ -1,0 +1,1 @@
+<?php $name="COMP NAME"; ?>
