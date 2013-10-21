@@ -16,7 +16,7 @@ Features of this login system :
 - newpassword 
 - MD5 encrypted passwords
 - contact us form(working)
-- 5 colors to choose from
+- 6 colors schemes to choose from
 - modern design
 
 For more info or your own costom colors contact me at momueller@me.com or check me out on twitter @seven11nash
