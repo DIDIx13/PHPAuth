@@ -1,18 +1,9 @@
 @charset "utf-8";
-/* CSS Document */
-
-/* ---------- FONTAWESOME ---------- */
-/* ---------- http://fortawesome.github.com/Font-Awesome/ ---------- */
-/* ---------- http://weloveiconfonts.com/ ---------- */
 
 @import url(http://weloveiconfonts.com/api/?family=fontawesome);
 
-/* ---------- ERIC MEYER'S RESET CSS ---------- */
-/* ---------- http://meyerweb.com/eric/tools/css/reset/ ---------- */
-
 @import url(http://meyerweb.com/eric/tools/css/reset/reset.css);
 
-/* ---------- FONTAWESOME ---------- */
 
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
@@ -159,6 +150,7 @@ h3{
 	color: #777;
 	padding: 4px 10px;
 	width: 328px;
+  resize: none;
 }
 
 #login fieldset input[type="button"] {

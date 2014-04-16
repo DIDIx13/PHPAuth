@@ -159,6 +159,7 @@ h3{
 	color: #777;
 	padding: 4px 10px;
 	width: 328px;
+	resize: none;
 }
 
 #login fieldset input[type="button"] {
@@ -183,6 +184,7 @@ h3{
 #login fieldset button{
 	background-color: #eee;
 	color: #777;
+	resize: none;
 	padding: 4px 10px;
 	width: 328px;
 }

@@ -19,13 +19,13 @@
 }
 
 /* ---------- GENERAL ---------- */
-a:link{color:#0645AD;}
-a:visited{color:#0645AD;}
-a:hover{color:#0645AD;}
-a:active{color:#0645AD;}
+a:link{color:#3eaf88;}
+a:visited{color:#3eaf88;}
+a:hover{color:#3eaf88;}
+a:active{color:#f85251;}
 
 body {
-	background-color: #297ACC;
+	background-color: #192226;
 	color: #297ACC;
 	font-family: "Varela Round", Arial, Helvetica, sans-serif;
 	font-size: 16px;
@@ -60,7 +60,7 @@ button{
 
 /* ---------- LOGIN ---------- */
 h1{
-	background-color: #3399FF;
+	background-color: #3eaf88;
 	-webkit-border-radius: 20px 20px 0 0;
 	-moz-border-radius: 20px 20px 0 0;
 	border-radius: 20px 20px 0 0;
@@ -79,7 +79,7 @@ h3{
 }
 
 #header {
-	background-color:#3399FF;
+	background-color:#3eaf88;
 	height:120px;
 	text-align: left;
 }
@@ -97,7 +97,7 @@ h3{
 }
 
 #login h2 {
-	background-color: #3399FF;
+	background-color: #3eaf88;
 	-webkit-border-radius: 20px 20px 0 0;
 	-moz-border-radius: 20px 20px 0 0;
 	border-radius: 20px 20px 0 0;
@@ -157,13 +157,13 @@ h3{
 #login fieldset textarea{
 	background-color: #eee;
 	color: #777;
-	resize: none;
 	padding: 4px 10px;
+	resize: none;
 	width: 328px;
 }
 
 #login fieldset input[type="button"] {
-	background-color: #3399FF;
+	background-color: #3eaf88;
 	color: #fff;
 	display: block;
 	margin: 0 auto;
@@ -172,7 +172,7 @@ h3{
 }
 
 #login fieldset input[type="button"]:hover {
-	background-color: #3399FF;
+	background-color: #3eaf88;
 }
 
 #login fieldset button {
@@ -189,7 +189,7 @@ h3{
 }
 
 #login fieldset button{
-	background-color: #3399FF;
+	background-color: #3eaf88;
 	color: #fff;
 	display: block;
 	margin: 0 auto;
@@ -198,5 +198,5 @@ h3{
 }
 
 #login fieldset button:hover {
-	background-color: #3399FF;
+	background-color: #3eaf88;
 }

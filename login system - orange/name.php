@@ -1,1 +1,1 @@
-<?php $name="COMP NAME"; ?>
+<?php $name="your company"; ?>

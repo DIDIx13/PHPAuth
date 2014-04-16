@@ -1,13 +1,14 @@
 <?php
 
 include("db.php");
+include("name.php");
 
 // Connect to server and select databse.
-$db_handle = mysql_connect("$host", "$username", "$password")or die("cannot connect"); 
+$db_handle = mysql_connect("$host", "$username", "$password")or die("cannot connect");
 $db_found = mysql_select_db("$db_name")or die("cannot select DB");
 
-// username and password sent from form 
-$username=$_POST['userfo']; 
+// username and password sent from form
+$username=$_POST['userfo'];
 $number=1;
 
 $query=mysql_query("SELECT * FROM $tbl_name WHERE username='$username'");
@@ -25,7 +26,15 @@ if($numrows!=0){
 	$sql = "UPDATE $tbl_name SET password='$code' WHERE username='$username' AND email='$db_mail'";
 	$res = mysql_query($sql);
 
-	mail("$db_mail","Forgot password <noreply>", "message");
+	mail("$db_mail","Forgot password <noreply>",
+	"Hello $username,
+
+	you forgot your password so we changed it to this ( $code ).
+
+	To now change your password go to http://www.test.com/newpass1.php
+
+	- your $name team
+	");
 
 	echo"Mail Sent<br><a href='index.php'>Login</a>";
 	}

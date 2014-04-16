@@ -8,7 +8,7 @@
 	<title>WiWeb - Home</title>
 
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela+Round">
-  
+
   <link rel="stylesheet" href="home-style.css" type="text/css">
 
 </head>
@@ -20,14 +20,14 @@
 		<h1><?php Echo"$name"; ?></h1>
 	</div>
 	<div id="navbar">
-		
+
 	</div>
 	<div id="body">
-		
+
 	</div>
 	<div id="footer">
-		
+
 	</div>
 
-</body>	
+</body>
 </html>
