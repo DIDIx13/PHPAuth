@@ -6,8 +6,16 @@ This is a login/register/contactus/forgotpassword/newpassword/deleteaccount syst
 When setting this system up for you cahnge home.php(this is the website you come to when you log in!)
 
 Then there is two other files you need to chege to let the whole thing work:
-- db.php (fill in your database information here and the table must be called member and have the fields id(auto increase), username, password and email)
+- db.php (fill in your database information)
 - name.php (this is the title of all pages)
+
+/////////////////////////////////////
+
+!!! IMPORTANT !!!
+- When creating the table in your database use the SQL code provided in the file database.sql !!!!!
+
+/////////////////////////////////////
+
 
 Features of this login system :
 - login
