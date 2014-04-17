@@ -5,7 +5,7 @@ This is a login/register/contactus/forgotpassword/newpassword/deleteaccount syst
 
 When setting this system up for you cahnge home.php(this is the website you come to when you log in!)
 
-Then there is two other files you need to chege to let the whole thing work:
+Then there is two other files you need to change to let the whole thing work:
 - db.php (fill in your database information)
 - name.php (this is the title of all pages)
 
