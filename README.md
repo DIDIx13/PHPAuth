@@ -3,7 +3,7 @@ Login
 
 This is a login/register/contactus/forgotpassword/newpassword/deleteaccount system with all the php included! In 5 colors :D
 
-When setting this system up for you cahnge home.php(this is the website you come to when you log in!)
+When setting this system up for you change home.php(this is the website you come to when you log in!)
 
 Then there is two other files you need to change to let the whole thing work:
 - db.php (fill in your database information)
