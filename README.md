@@ -1,7 +1,7 @@
 Login
 =====
 
-This is a login/register/contactus/forgotpassword/newpassword/deleteaccount system with all the php included! In 5 colors :D
+This is a login/register/contactus/forgotpassword/newpassword/deleteaccount system with all the php included! In 6 colors :D
 
 When setting this system up for you change home.php(this is the website you come to when you log in!)
 
