@@ -5,9 +5,22 @@ This is a login/register/contactus/forgotpassword/newpassword/deleteaccount syst
 
 When setting this system up for you change home.php(this is the website you come to when you log in!)
 
-Then there is two other files you need to change to let the whole thing work:
+Then there is three other files you need to change to let the whole thing work:
 - db.php (fill in your database information)
 - name.php (this is the title of all pages)
+- home.php (this is where the page goes when you logged in!)
+  - FOR YOUR HOME.PHP add (
+    <?php
+    if(!isset($_COOKIE['ID_my_site'])){
+         header("location: login.php");
+        exit();
+    }
+
+    ?>
+    <?php include("name.php"); ?>
+    )
+
+    above the <html>
 
 /////////////////////////////////////
 
@@ -21,7 +34,7 @@ Features of this login system :
 - login
 - register
 - forgot password
-- newpassword 
+- newpassword
 - MD5 encrypted passwords
 - contact us form(working)
 - 6 colors schemes to choose from

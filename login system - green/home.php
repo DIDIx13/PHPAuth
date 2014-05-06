@@ -1,3 +1,10 @@
+<?php
+if(!isset($_COOKIE['ID_my_site'])){
+	   header("location: login.php");
+		exit();
+}
+
+?>
 <?php include("name.php"); ?>
 <!doctype html>
 <html lang="en-US">

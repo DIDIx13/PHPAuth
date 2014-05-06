@@ -25,7 +25,11 @@ $count=mysql_num_rows($result);
 // If result matched $myusername and $mypassword, table row must be 1 row
 if($count==1){
 // Register $myusername, $mypassword and redirect to file "login_success.php"
-$_SESSION["myusername"] = $myusername; 
+$hour = time() + 3600;
+
+setcookie(ID_my_site, $_POST['user'], $hour);
+
+setcookie(Key_my_site, $_POST['pass'], $hour);
 header("location:home.php");
 }
 else {
