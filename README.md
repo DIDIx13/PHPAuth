@@ -11,12 +11,12 @@ Then there is three other files you need to change to let the whole thing work:
 - home.php (this is where the page goes when you logged in!)
 
 
-/////////////////////////////////////
+---
 
 !!! IMPORTANT !!!
 - When creating the table in your database use the SQL code provided in the file database.sql !!!!!
 
-/////////////////////////////////////
+---
 
 
 Features of this login system :
