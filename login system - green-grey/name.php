@@ -1,1 +1,0 @@
-<?php $name="your company"; ?>
