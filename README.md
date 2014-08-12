@@ -9,18 +9,7 @@ Then there is three other files you need to change to let the whole thing work:
 - db.php (fill in your database information)
 - name.php (this is the title of all pages)
 - home.php (this is where the page goes when you logged in!)
-  - FOR YOUR HOME.PHP add (
-    <?php
-    if(!isset($_COOKIE['ID_my_site'])){
-         header("location: login.php");
-        exit();
-    }
 
-    ?>
-    <?php include("name.php"); ?>
-    )
-
-    above the <html>
 
 /////////////////////////////////////
 
